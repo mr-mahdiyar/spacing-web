@@ -1,16 +1,17 @@
 import React from 'react'
 import bgVideo from "./assets/earth-bg.mp4"
-import { Navbar } from "./"
+import { Navbar, Hero } from "./"
 const App = () => {
   return (
     <div>
-      <div className='relative'>
+      <div className='relative w-h-screen'>
         {/* video tag attributes: controls, autoplay, loop and muted */}
-        <video autoPlay muted loop className='relative right-0 top-0 w-h-screen object-cover z[-1]'>
+        <video autoPlay muted loop  className='fixed right-0 top-0 w-h-screen object-cover w-full -z-10'>
            {/* source uses for alternative formats that browser supports. */}
           <source src={bgVideo} type='video/mp4'/>
         </video>
         <Navbar />
+        <Hero />
       </div>
     </div>
   )
