@@ -5,9 +5,9 @@ const Hero = () => {
     <div className="bg-black/20 h-full text-white relative">
       <div className="h-full flex justify-center items-center p-4">
         <div className="container gird grid-cols-1 sm:grid-cols-2 gap-4">
-          <div>
-            <h1 className="text-5xl font-bold">Orbit the earth</h1>
-            <p>
+          <div className="space-y-4 lg:pr-36 max-w-[30rem]">
+            <h1 className="text-5xl font-bold uppercase">Orbit the earth</h1>
+            <p className="text-5xlg font-bold">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Temporibus cupiditate, error unde ut illo, eligendi beatae aut
               molestias amet dolore delectus non! Tempora officia architecto
