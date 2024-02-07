@@ -1,5 +1,5 @@
 import React from "react";
-
+import mountainPhoto from "../../assets/moon-surface-hd.png"
 const Hero = () => {
   return (
     <div className="bg-black/20 h-full text-white relative">
@@ -18,6 +18,9 @@ const Hero = () => {
           </div>
         </div>
       </div>
+      <img src={mountainPhoto} alt="" className="absolute right-0 bottom-0 brightness-50 z-10"/>
+      <div className="absolute bottom-0 w-full z-30 bg-gradient-to-b from-transparent
+       from-10% to-black to-90% h-[20px] sm:h-[50px] md:[60px] "></div>
     </div>
   );
 };
