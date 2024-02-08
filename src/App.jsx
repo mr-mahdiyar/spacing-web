@@ -1,6 +1,6 @@
 import React from 'react'
 import bgVideo from "./assets/earth-bg.mp4"
-import { Navbar, Hero, Services } from "./"
+import { Navbar, Hero, Services, Banner, Banner2 } from "./"
 const App = () => {
   return (
     <div>
@@ -16,6 +16,7 @@ const App = () => {
 
       {/* services section */}
     <Services />
+    <Banner />
     </div>
   )
 }
